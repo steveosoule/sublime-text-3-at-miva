@@ -1,9 +1,10 @@
 {
-	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"font_size": 10,
 	"ignored_packages":
 	[
 		"JavaScript",
+		"Tag",
 		"Vintage"
 	],
 	"theme": "Seti_orig.sublime-theme"
