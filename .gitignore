@@ -6,4 +6,4 @@
 !Package Control.sublime-settings
 !*.sublime-settings
 !*.sublime-keymap
-!Snippets/*.sublime-snippet
+!*.sublime-snippet
