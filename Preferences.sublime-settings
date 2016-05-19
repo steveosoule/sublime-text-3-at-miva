@@ -1,5 +1,39 @@
 {
+<<<<<<< Updated upstream
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+=======
+	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+	"extra_file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"extra_folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+>>>>>>> Stashed changes
 	"font_size": 10,
 	"ignored_packages":
 	[
