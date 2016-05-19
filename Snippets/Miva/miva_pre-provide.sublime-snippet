@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<Provision>
+	<Domain>
+		<User_Add>
+			<Name>${1:miva_admin}</Name>
+			<Password>${2:P@ssw0rd}</Password>
+			<DefaultPagination>1000</DefaultPagination>
+			<Administrator>1</Administrator>
+			<CanCreateUsers>1</CanCreateUsers>
+			<StartInSimpleMode>0</StartInSimpleMode>
+		</User_Add>
+	</Domain>
+</Provision>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>preprovide</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[MvELSEIF EXPR = "{ ${1} }">
+	${0:# logic}]]></content>
+    <tabTrigger>MvELSEIF</tabTrigger>
+    <scope>source.miva_script</scope>
+    <description>else if</description>
+</snippet>

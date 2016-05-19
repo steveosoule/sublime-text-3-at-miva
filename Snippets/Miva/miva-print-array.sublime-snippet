@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<mvt:eval expr="glosub(miva_array_serialize(${1:l.settings:item}), ',', '${2:<br>}')" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mvprintr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

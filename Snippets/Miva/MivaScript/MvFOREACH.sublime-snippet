@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[MvFOREACH ITERATOR = "${1:l.item}" ARRAY = "${2:l.array}" INDEX = "${3:l.index}">
+	${0:# code...}
+</MvFOREACH>]]></content>
+    <tabTrigger>MvFOREACH</tabTrigger>
+    <scope>source.miva_script</scope>
+    <description>foreach ...</description>
+</snippet>

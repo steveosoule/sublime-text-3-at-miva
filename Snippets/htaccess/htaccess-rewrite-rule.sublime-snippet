@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+RewriteRule ${1:^main/Customer-Service} ${2:/site/customer-service} ${3:[R=301,NC]}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>RewriteRule</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.apache</scope>
+</snippet>

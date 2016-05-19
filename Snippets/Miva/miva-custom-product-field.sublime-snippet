@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="customfields" param="Read_Product_ID( ${1:l.settings:product:id}, '${2:custom_field_code}', g.${2:custom_field_code} )" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>miva_cf_prod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

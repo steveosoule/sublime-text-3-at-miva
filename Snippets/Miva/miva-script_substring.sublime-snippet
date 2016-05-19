@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+substring( ${1:string}, ${2:position}, ${3:length} )
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mivasubstring</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

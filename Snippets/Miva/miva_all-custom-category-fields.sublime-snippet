@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="customfields" param="Read_Category_ID( l.settings:category:id, '', l.settings:customfields )" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>miva_all_cf_ctgy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="toolkit" param="mvassign|select_sql|'SELECT name FROM  s01_PageFinderCats WHERE cat_id=' \$ l.all_settings:${1:category}:id \$ ' LIMIT 1'"/>
+<mvt:item name="ry_toolbelt" param="query|g.select_sql|pageFinderName" />
+<mvt:if expr="l.settings:pageFinderName NE ''">
+	<mvt:item name="toolkit" param="mvassign|category_link|'http://' \$ g.domain:name \$ '/' \$ l.all_settings:pageFinderName \$ '.html'"/>
+<mvt:else>
+	<mvt:item name="toolkit" param="mvassign|category_link|'http://' \$ g.domain:name \$ '/' \$ l.all_settings:${1:category}:code \$ '.html'"/>
+</mvt:if>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

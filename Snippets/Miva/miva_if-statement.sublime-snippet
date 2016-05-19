@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<mvt:if expr="${1:EXPRESSION}">
+	${2:CONTENT}
+</mvt:if>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mv_if</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[MvEVAL EXPR = "${0:expr}" />]]></content>
+    <tabTrigger>MvEVAL</tabTrigger>
+    <scope>source.miva_script</scope>
+    <description>eval</description>
+</snippet>

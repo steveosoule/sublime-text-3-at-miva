@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<mvt:comment>
+	Redirect /old_product_code.html to /new_product_code.html
+</mvt:comment>
+<mvt:assign name="l.settings:url" value="s.script_url" />
+<mvt:item name="ry_toolbelt" param="Assign|g.url_length|len( l.all_settings:url )" />
+<mvt:item name="ry_toolbelt" param="Assign|g.stripped_404_url|substring_var( l.all_settings:url, 2, g.url_length - 6 )" />
+<mvt:foreach iterator="product" array="products">
+	<mvt:item name="customfields" param="Read_Product_ID( l.settings:product:id, 'old_url', g.old_product_code )" />
+	<mvt:if expr="tolower(g.old_product_code) EQ tolower(g.stripped_404_url)">
+		<mvt:assign name="g.new_product_code_url" value="l.settings:product:code" />
+	</mvt:if>
+</mvt:foreach>
+<mvt:if expr="NOT ISNULL g.new_product_code_url">
+	<mvt:assign name="l.header" value="miva_output_header( 'Status', '301 Moved Permanently' )" />
+	<mvt:assign name="l.header" value="miva_output_header( 'Location', 'http://' $ g.domain:name $ '/' $ g.new_product_code_url $ '.html' )" />
+<mvt:else>
+	<mvt:assign name="l.header" value="miva_output_header( 'Status', '404 Not Found' )" />
+</mvt:if>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

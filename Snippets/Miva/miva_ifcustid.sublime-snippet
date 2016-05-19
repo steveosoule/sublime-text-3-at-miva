@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<mvt:if expr="g.customer:id EQ '${1:NUMBER - Customer ID}'">
+	${2:IF-CONTENT}
+<mvt:else>
+	${3:ELSE-CONTENT}
+</mvt:if>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mv_ifcustid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

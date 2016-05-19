@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="toolkit" param="parentcat|pccount"/>
+<ul class="dropdown" style="margin:0;">
+	<mvt:foreach iterator="parent_category" array="parent_categories">
+		<li style="margin:0;"><a href="/category/&mvte:parent_category:code;.html" title="&mvte:parent_category:name;">&mvte:parent_category:name;</a>
+			<mvt:item name="toolkit" param="subcat|ccount|l.all_settings:parent_category:code" />
+			<mvt:if expr="ccount GT 0">
+				<ul class="sub-menu" style="margin:0;">
+					<mvt:foreach iterator="sub_category" array="sub_categories">
+						<li style="margin:0;"><a href="/category/&mvte:sub_category:code;.html" title="&mvte:sub_category:name;">&mvte:sub_category:name;</a>
+							<mvt:item name="toolkit" param="subcat2|ccount2|l.all_settings:sub_category:code" />
+							<mvt:if expr="ccount2 GT 0">
+								<ul style="margin:0;">
+									<mvt:foreach iterator="sub_category2" array="sub_categories2">
+										<li style="margin:0;"><a href="/category/&mvte:sub_category2:code;.html" title="&mvte:sub_category2:name;">&mvte:sub_category2:name;</a></li>
+									</mvt:foreach>
+								</ul>
+							</mvt:if>
+						</li>
+					</mvt:foreach>
+				</ul>
+			</mvt:if>
+		</li>
+	</mvt:foreach>
+</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mv_3tiercategory</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

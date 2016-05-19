@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="customfields" param="Read_${1:Product}_${2:ID}( ${3:l.settings:product:id}, '', ${4:l.settings:${5:test}} )" />
+<!-- !@!
+<mvt:foreach iterator="field" array="${5:test}">
+    &mvte:field:code;
+    &mvte:field:name;
+    &mvte:field:value;
+</mvt:foreach>
+-->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

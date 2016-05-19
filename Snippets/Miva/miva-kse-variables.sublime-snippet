@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="kse-variables" param="global" />
+<mvt:item name="kse-variables" param="local" />
+<mvt:item name="kse-variables" param="system" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>miva_kse</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

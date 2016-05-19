@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[MvFUNCTION NAME = "${1:FunctionName}" PARAMETERS = "${2:params}" STANDARDOUTPUTLEVEL = "">
+	${0:# code...}
+</MvFUNCTION>]]></content>
+    <tabTrigger>MvFUNCTION</tabTrigger>
+    <scope>source.miva_script</scope>
+    <description>function …</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="toolkit" param="mvassign|time|stime('${1:/mm5/css/styles.css}')" />
+<link type="text/css" rel="stylesheet" href="${2:css/miva.css}?v=&mvt:global:time;" media="all" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>miva_clear-file-cache</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

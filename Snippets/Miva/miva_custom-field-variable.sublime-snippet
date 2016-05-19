@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+l.settings:product:customfield_values:customfields:${1:Custom Field Code}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mv_customfield_var</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

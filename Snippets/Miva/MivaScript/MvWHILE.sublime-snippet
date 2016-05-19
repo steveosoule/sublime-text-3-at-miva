@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[MvWHILE EXPR = "{ ${1} }">
+	${0:# logic}
+</MvWHILE>]]></content>
+    <tabTrigger>MvWHILE</tabTrigger>
+    <scope>source.miva_script</scope>
+    <description>while</description>
+</snippet>

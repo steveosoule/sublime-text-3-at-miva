@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<mvt:if expr="${1:EXPRESSION}">
+	${2:IF-CONTENT}
+<mvt:elseif expr="${3:ELSE-IF-EXPRESSION}">
+	${4:ELSE-IF-CONTENT}
+<mvt:else>
+	${5:ELSE-CONTENT}
+</mvt:if>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mv_ifeife</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.html, source.php, text.js</scope> -->
+</snippet>
