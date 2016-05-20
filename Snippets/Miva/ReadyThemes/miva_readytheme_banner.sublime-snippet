@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-l.settings:${1:product}${2::}
+<mvt:item name="readytheme" param="banner( ${1:'promo-banner'} )" />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ls</tabTrigger>
+	<tabTrigger>miva_readytheme_banner</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

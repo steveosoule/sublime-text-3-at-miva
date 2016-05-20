@@ -1,9 +1,18 @@
-# Ignore everything...
-*
-# ... except preferences
-!.gitignore
-!*/Snippets
-!*.sublime-settings
-!*.sublime-keymap
-!*.sublime-snippet
-!*.sublime-build
+# # Double-negative Ignore
+# ------------------------
+# # Ignore everything...
+# *
+# 
+# # ... except preferences
+# !.gitignore
+# !*.sublime-snippet
+# !*.sublime-settings
+# !*.sublime-keymap
+# !*.sublime-build
+
+# Affirmative Ignore
+# ------------------------
+Package Control.cache
+SublimeLinter
+*.last-run
+*ca-bundle
