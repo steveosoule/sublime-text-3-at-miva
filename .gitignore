@@ -13,6 +13,7 @@
 # Affirmative Ignore
 # ------------------------
 Package Control.cache
+Color Highlighter
 SublimeLinter
 *.last-run
 *ca-bundle
