@@ -84,6 +84,7 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
+		"SublimeLinter-xmllint",
 		"tabr",
 		"Tag",
 		"Terminal",
