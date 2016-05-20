@@ -9,6 +9,11 @@
 	"font_size": 9,
 	"ignored_packages":
 	[
+		"CSS Format",
+		"DocBlockr",
+		"FTPSync",
+		"GotoDocumentation",
+		"ImageMagick",
 		"JavaScript",
 		"Vintage"
 	],
