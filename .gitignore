@@ -16,3 +16,4 @@ Package Control.cache
 SublimeLinter
 *.last-run
 *ca-bundle
+.sync*
