@@ -14,7 +14,7 @@
 		<mvt:assign name="l.settings:members" value="miva_array_deserialize(l.members)" />
 		<mvt:foreach iterator="m" array="members">
 			<tr>
-			<mvt:assign name="l.settings:variable_value" value="miva_variable_value( l.settings:scope $ '.' $ l.settings:m)" />
+			<mvt:assign name="l.settings:variable_value" value="miva_variable_value( l.settings:scope \$ '.' \$ l.settings:m)" />
 			<td><strong>&mvt:m;</strong></td>
 			<mvt:if expr="miva_array_elements(l.settings:variable_value) GT 0">
 				<td><mvt:eval expr="glosub(miva_array_serialize(l.settings:variable_value), ',', '<br />')" /></td>
@@ -27,7 +27,7 @@
 </table>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>miva_mvt_tokenlist</tabTrigger>
+	<!-- <tabTrigger>miva_mvt_tokenlist</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
