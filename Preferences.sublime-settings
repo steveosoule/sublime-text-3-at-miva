@@ -1,21 +1,30 @@
 {
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
 	],
 	"folder_exclude_patterns":
 	[
+		"_notes",
+		"node_modules",
+		".sass-cache"
 	],
+	"font-face": "Ubuntu Mono",
 	"font_size": 9,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"CSS Format",
-		"DocBlockr",
-		"FTPSync",
-		"GotoDocumentation",
-		"ImageMagick",
 		"JavaScript",
 		"Vintage"
 	],
-	"theme": "Seti_orig.sublime-theme"
+	"remember_open_folders": true,
+	"tab_size": 4,
+	"theme": "Seti_orig.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": false
 }
