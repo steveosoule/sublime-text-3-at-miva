@@ -2,8 +2,8 @@
 *
 # ... except preferences
 !.gitignore
-!Preferences.sublime-settings
-!Package Control.sublime-settings
+!*/Snippets
 !*.sublime-settings
 !*.sublime-keymap
 !*.sublime-snippet
+!*.sublime-build
