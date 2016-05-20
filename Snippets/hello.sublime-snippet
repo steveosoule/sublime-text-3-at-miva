@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Hello, ${1:this} is a ${2:snippet}.
+Hello, ${1:this} is a ${2:snippet}!
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>hello</tabTrigger>
