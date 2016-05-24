@@ -19,6 +19,8 @@
 	[
 		"CSS Format",
 		"JavaScript",
+		"StandardFormat",
+		"SublimeLinter-contrib-standard",
 		"Vintage"
 	],
 	"remember_open_folders": true,

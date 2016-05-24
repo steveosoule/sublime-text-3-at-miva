@@ -1,7 +1,11 @@
 {
 	"files":
 	{
-		"jquery": "http://code.jquery.com/jquery.min.js"
+		"jquery": "http://code.jquery.com/jquery.min.js",
+        "normalize": "https://github.com/necolas/normalize.css/blob/master/normalize.css",
+        "boostrap-css": "https://github.com/twbs/bootstrap/blob/master/dist/css/bootstrap.min.css",
+        "boostrap-js": "https://github.com/twbs/bootstrap/blob/master/dist/js/bootstrap.min.js",
+        "modernizr": "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
 	},
 	"packages":
 	{
