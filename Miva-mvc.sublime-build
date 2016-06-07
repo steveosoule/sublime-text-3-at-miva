@@ -1,3 +1,4 @@
 {
-    "cmd": ["mvc", "$file"]
+    "cmd": ["mvc", "$file"],
+    "selector": "source.mv"
 }
