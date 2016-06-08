@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Monokai - Spacegray (SL).tmTheme",
+	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -23,7 +23,7 @@
 	],
 	"remember_open_folders": true,
 	"tab_size": 4,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Seti_orig.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"wide_caret": false,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
