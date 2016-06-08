@@ -1,4 +1,5 @@
 {
     "cmd": ["node", "$file"],
+    "file_regex": "js$",
     "selector": "source.js"
 }
