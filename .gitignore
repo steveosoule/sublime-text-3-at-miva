@@ -2,7 +2,7 @@
 # ------------------------
 # # Ignore everything...
 # *
-# 
+#
 # # ... except preferences
 # !.gitignore
 # !*.sublime-snippet
@@ -15,6 +15,7 @@
 Package Control.cache
 Color Highlighter
 SublimeLinter
+*.log
 *.last-run
 *ca-bundle
 .sync*
