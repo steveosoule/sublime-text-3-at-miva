@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai - Spacegray (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -15,7 +15,7 @@
 	],
 	"font-face": "Ubuntu Mono",
 	"font_size": 9,
-	"highlight_line": true,
+	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
