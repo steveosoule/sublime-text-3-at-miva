@@ -10,6 +10,8 @@
 		"Alignment",
 		"ApacheConf.tmLanguage",
 		"AutoBackups",
+		"Babel",
+		"Babel Snippets",
 		"Bootstrap 3 Snippets",
 		"Bower",
 		"BracketHighlighter",
@@ -108,6 +110,7 @@
 		"TodoReview",
 		"TrailingSpaces",
 		"Trimmer",
+		"TypeScript",
 		"Web Inspector",
 		"WordPress"
 	],
