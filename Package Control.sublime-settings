@@ -64,7 +64,7 @@
 		"JsFormat",
 		"Keymaps",
 		"LESS",
-		"LESS-build",
+		"lessc",
 		"Libraries from CDN",
 		"Local History",
 		"Lodash Completions",
