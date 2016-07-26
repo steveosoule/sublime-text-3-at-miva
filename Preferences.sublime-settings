@@ -19,7 +19,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Sublimerge Pro"
 	],
 	"remember_open_folders": true,
 	"tab_size": 4,
