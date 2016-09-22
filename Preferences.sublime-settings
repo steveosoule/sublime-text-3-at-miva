@@ -1,5 +1,23 @@
 {
+	"always_show_minimap_viewport": true,
 	"auto_complete_with_fields": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		".git/**"
+	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
@@ -24,6 +42,12 @@
 		"Sublimerge Pro",
 		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"overlay_scroll_bars": "enabled",
 	"remember_open_folders": true,
 	"tab_size": 4,
 	"theme": "Seti_orig.sublime-theme",
