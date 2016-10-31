@@ -38,6 +38,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"MarkdownEditing",
 		"Sublimerge 3",
 		"Sublimerge Pro",
 		"Vintage"

@@ -75,6 +75,17 @@
 				[
 				]
 			},
+			"phpcs":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"standard": "PSR2"
+			},
 			"standard":
 			{
 				"@disable": false,
