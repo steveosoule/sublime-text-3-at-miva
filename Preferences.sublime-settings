@@ -19,6 +19,7 @@
 		"*.ttf",
 		"*.zip",
 		".git/**",
+		"/C/Users/ssoule/Documents/Website/htdocs/dashboard/v1/**",
 		"_archive/**",
 		"assets/**",
 		"dev.idwholesaler.com/**",
