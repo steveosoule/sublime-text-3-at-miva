@@ -46,7 +46,7 @@
 			},
 			"jslint":
 			{
-				"@disable": true,
+				"@disable": false,
 				"args":
 				[
 				],

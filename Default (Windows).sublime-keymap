@@ -1,5 +1,6 @@
 [
 	{ "keys": ["ctrl+t"], "command": "trimmer" },
 	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
-	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" }
+	{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["ctrl+r"], "command": "rename_tab_label", "args": { "group": -1, "index": -1 } }
 ]
