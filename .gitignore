@@ -19,3 +19,5 @@ SublimeLinter
 *.last-run
 *ca-bundle
 .sync*
+FileHistory*
+encoding_cache\.json
