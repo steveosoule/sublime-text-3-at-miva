@@ -66,15 +66,11 @@
 		"CVS"
 	],
 	"font-face": "Ubuntu Mono",
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"Sublimerge 3",
-		"Sublimerge Pro",
-		"Vintage",
 		"AutocompletionFuzzy",
 		"DevastateMini",
 		"Expression",
@@ -89,6 +85,7 @@
 		"JoinAssignment",
 		"KeymapEnhanced",
 		"LocalVariable",
+		"MarkdownEditing",
 		"Method",
 		"OpenPath",
 		"ProjectFiles",
@@ -96,7 +93,12 @@
 		"SearchPanelEnhanced",
 		"SnippetManager",
 		"Statement",
-		"StatusMessage"
+		"StatusMessage",
+		"Sublimerge 3",
+		"Sublimerge Pro",
+		"tern_for_sublime",
+		"TernJS",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
