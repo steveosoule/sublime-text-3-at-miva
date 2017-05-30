@@ -33,11 +33,11 @@
                 // the json URL to the store
                 "json_url": "https://ssoule.mivamerchantdev.com/mm5/json.mvc",
 
-                // the store login username
+                // the store login
                 "username": "mvsublime-template-editor",
 
                 // the store login password
-                "password": "P@ssw0rd!", // "P@ssw0rd!", // If OpenSSL (Master Password) is enabled, this password will be encrypted
+                "password": "2auWX9xV546e29NL", // "P@ssw0rd!", // If OpenSSL (Master Password) is enabled, this password will be encrypted
 
                 // the number of seconds to spend on blocking operations
                 "timeout": 15
