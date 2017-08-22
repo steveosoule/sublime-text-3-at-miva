@@ -1,0 +1,104 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="en-US" ng-app="app" ng-controller="appCtrl" ng-cloak>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <style>
+            [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+                display: none !important;
+            }
+        </style>
+    </head>
+    <body>
+    <main class="wrapper">
+        <h1>{{title}}</h1>
+        <form ng-submit="add()" class="form form-inline">
+            <input type="text" ng-model="app.name" placeholder="name" class="form-control"/>
+            <input type="text" ng-model="app.description" placeholder="description" class="form-control"/>
+
+            <select ng-model="app.gender" ng-options="value for value in genders" class="form-control"></select>
+            <input type="number"  ng-model="app.age" class="form-control"/>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+
+        <table class="table">
+            <thead>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Edit/Delete</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="value in DB">
+                    <td>{{value.name}}</td>
+                    <td>{{value.description}}</td>
+                    <td>{{value.gender}}</td>
+                    <td>{{value.age}}</td>
+                    <td>
+                        <button type="button" class="btn btn-sm" ng-click="edit(value)">Edit</button>
+                        <button type="button" class="btn btn-sm" ng-click="delete(value)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.9.2/angularfire.min.js"></script>
+
+    <script>
+        angular.module('app', ["firebase"]).controller('appCtrl', function($scope, $firebase) {
+
+            var ref = new Firebase("${1:https://console.firebase.google.com}");
+            var sync = $firebase(ref);
+
+            $scope.DB = sync.$asArray();
+
+            $scope.title = 'Demo Angular';
+            $scope.genders = ['Male', 'Female']
+
+            $scope.app = {
+                name: '',
+                description: '',
+                gender: '',
+                age: ''
+            }
+
+            $scope.add = function() {
+                $scope.DB.$add($scope.app);
+                $scope.app = {
+                    name: '',
+                    description: '',
+                    gender: '',
+                    age: ''
+                }
+            }
+
+            $scope.edit = function(value) {
+                $scope.app = value
+            }
+
+            $scope.delete = function(item) {
+                $scope.DB.$remove(item)
+            }
+
+
+
+        });
+    </script>
+
+    </body>
+</html>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>angular-fire-base</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
