@@ -1,11 +1,7 @@
 {
 	"files":
 	{
-		"boostrap-css": "https://raw.githubusercontent.com/twbs/bootstrap/master/dist/css/bootstrap.min.css",
-		"boostrap-js": "https://raw.githubusercontent.com/twbs/bootstrap/master/dist/js/bootstrap.min.js",
-		"jquery": "http://code.jquery.com/jquery.min.js",
-		"modernizr": "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js",
-		"normalize": "https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css"
+		"jquery": "http://code.jquery.com/jquery.min.js"
 	},
 	"packages":
 	{

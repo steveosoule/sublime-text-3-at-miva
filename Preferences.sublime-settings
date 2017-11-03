@@ -30,7 +30,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Monokai - Spacegray (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Ciapre (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"file_exclude_patterns":
 	[
@@ -88,6 +88,8 @@
 		"LocalVariable",
 		"MarkdownEditing",
 		"Method",
+		"Miva Template Language (MVT)",
+		"MivaScript",
 		"OpenPath",
 		"ProjectFiles",
 		"QuickSearchEnhanced",
@@ -109,7 +111,7 @@
 	"overlay_scroll_bars": "enabled",
 	"remember_open_folders": true,
 	"tab_size": 4,
-	"theme": "Seti_orig.sublime-theme",
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"wide_caret": false,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
