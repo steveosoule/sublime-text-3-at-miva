@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-var url = window.location.protocol + "//" + window.location.host + "/${1:mm5/merchant.mvc}";
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>currentUrl</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>

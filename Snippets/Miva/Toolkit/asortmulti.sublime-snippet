@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<mvt:item name="toolkit" param="asortmulti|${1:l.all_settings:searchcats}|${2::name}|${3:1=ASC, -1=DESC}" />
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tk-assortmulti</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<mvt:item name="toolkit" param="vacreate|${1:array name}|${2:variable list}|${3:delimiter}" />
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>vacreate</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
