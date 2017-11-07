@@ -2,7 +2,6 @@
 	"color_scheme": "Packages/User/SublimeLinter/Ciapre (SL).tmTheme",
 	"ignored_packages":
 	[
-		"Markdown",
 		"Vintage"
 	],
 	"theme": "Adaptive.sublime-theme"
