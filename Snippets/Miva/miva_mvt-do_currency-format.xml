@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<mvt:do name="${1:l.result}" file="g.Module_Root \$ g.Store:currncy_mod:module" value="CurrencyModule_AddFormatting( g.Store:currncy_mod, ${2:1.25} )" />
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>mvt:do:currency_format</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
-</snippet>

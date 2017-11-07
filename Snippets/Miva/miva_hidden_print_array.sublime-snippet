@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<textarea id="!@!" style="display:none;"><mvt:eval expr="glosub(miva_array_serialize(${1:l.settings:email}), ',', asciichar( 10 ))" /></textarea>
-]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>miva_hidden_print_array</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
-</snippet>

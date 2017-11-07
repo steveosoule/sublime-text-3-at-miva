@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<mvt:assign name="${1:l.settings:item}" value="${3:s.script_url}" />
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mvt:assign</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
