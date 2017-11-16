@@ -8,6 +8,7 @@
 		"Advanced CSV",
 		"AdvancedNewFile",
 		"Alignment",
+		"ApacheConf.tmLanguage",
 		"AutoBackups",
 		"cdnjs",
 		"Ciapre Color Scheme",
@@ -52,6 +53,8 @@
 	],
 	"repositories":
 	[
-		"https://github.com/mghweb/SublimeRenameTabLabel.git"
+		"https://github.com/mghweb/SublimeRenameTabLabel.git",
+		"https://github.com/titoBouzout/Tag.git",
+		"https://github.com/titoBouzout/Tag"
 	]
 }

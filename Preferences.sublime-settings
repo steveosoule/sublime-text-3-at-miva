@@ -1,7 +1,10 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Ciapre (SL).tmTheme",
+	"font_size": 10,
+	"word_wrap": "false",
 	"ignored_packages":
 	[
+		"SublimeLinter",
 		"Vintage"
 	],
 	"theme": "Adaptive.sublime-theme"
