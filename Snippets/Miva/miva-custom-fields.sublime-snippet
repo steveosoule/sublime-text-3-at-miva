@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<mvt:item name="customfields" param="${1:Read,Write,Debug}_${2:product,category,customer,basket,order}${3:_id,_code,_login}(${4:'ID or CODE'},'${5:'custom fields codes'}'${6:,optional variable to save value to})" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mivacustom</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

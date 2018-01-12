@@ -1,0 +1,138 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Library",
+				"id": "stino_import_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_libraries",
+						"command": "stino_refresh_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "Bridge",
+						"id": "stino_library_Bridge",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Bridge"}
+					},
+					{
+						"caption": "Esplora",
+						"id": "stino_library_Esplora",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Esplora"}
+					},
+					{
+						"caption": "Ethernet",
+						"id": "stino_library_Ethernet",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Ethernet"}
+					},
+					{
+						"caption": "Firmata",
+						"id": "stino_library_Firmata",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Firmata"}
+					},
+					{
+						"caption": "GSM",
+						"id": "stino_library_GSM",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/GSM"}
+					},
+					{
+						"caption": "Keyboard",
+						"id": "stino_library_Keyboard",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Keyboard"}
+					},
+					{
+						"caption": "LiquidCrystal",
+						"id": "stino_library_LiquidCrystal",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/LiquidCrystal"}
+					},
+					{
+						"caption": "Mouse",
+						"id": "stino_library_Mouse",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Mouse"}
+					},
+					{
+						"caption": "Robot IR Remote",
+						"id": "stino_library_Robot IR Remote",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/RobotIRremote"}
+					},
+					{
+						"caption": "Robot Control",
+						"id": "stino_library_Robot Control",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Robot_Control"}
+					},
+					{
+						"caption": "Robot Motor",
+						"id": "stino_library_Robot Motor",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Robot_Motor"}
+					},
+					{
+						"caption": "SD",
+						"id": "stino_library_SD",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/SD"}
+					},
+					{
+						"caption": "Servo",
+						"id": "stino_library_Servo",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Servo"}
+					},
+					{
+						"caption": "SpacebrewYun",
+						"id": "stino_library_SpacebrewYun",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/SpacebrewYun"}
+					},
+					{
+						"caption": "Stepper",
+						"id": "stino_library_Stepper",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Stepper"}
+					},
+					{
+						"caption": "Temboo",
+						"id": "stino_library_Temboo",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/Temboo"}
+					},
+					{
+						"caption": "TFT",
+						"id": "stino_library_TFT",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/TFT"}
+					},
+					{
+						"caption": "WiFi",
+						"id": "stino_library_WiFi",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Program Files (x86)/Arduino/libraries/WiFi"}
+					},
+					{"caption": "-"},
+					{
+						"caption": "Firmata",
+						"id": "stino_library_Firmata",
+						"command": "stino_import_library",
+						"args": {"library_path": "C:/Users/ssoule/Documents/Arduino/libraries/Firmata"}
+					}
+				]
+			}
+		]
+	}
+]

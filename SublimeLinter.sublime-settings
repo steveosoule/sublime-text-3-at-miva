@@ -1,9 +1,9 @@
 {
     "user": {
-        "debug": false,
+        "debug": true,
         "delay": 0.25,
         "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Koloria/Koloria.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
@@ -15,13 +15,18 @@
                 "ignore": "",
                 "warnings": ""
             },
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmltidy": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
             },
             "jshint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
@@ -35,9 +40,14 @@
                 "@disable": false,
                 "args": [],
                 "excludes": []
+            },
+            "xmllint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             }
         },
-        "mark_style": "",
+        "mark_style": "stippled underline",
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
@@ -68,6 +78,7 @@
         "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
         "tooltip_theme_excludes": [],
         "tooltips": false,
+        "use_current_shell_path": false,
         "warning_color": "DDB700",
         "wrap_find": true
     }
