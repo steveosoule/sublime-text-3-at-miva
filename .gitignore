@@ -22,3 +22,5 @@ SublimeLinter
 .sync*
 FileHistory*
 encoding_cache\.json
+.SublimeREPLHistory
+*.crt

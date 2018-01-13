@@ -1,0 +1,30 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Serial Port",
+				"id": "stino_serial_port",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_serials",
+						"command": "stino_refresh_serials"
+					},
+					{"caption": "-"},
+					{
+						"caption": "COM3",
+						"id": "stino_serial_COM3",
+						"command": "stino_select_serial",
+						"args": {"serial_port": "COM3"},
+						"checkbox": true
+					}
+				]
+			}
+		]
+	}
+]
